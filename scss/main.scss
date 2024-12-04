@@ -1,9 +1,5 @@
-@import "config";
-@import "home";
-@import "menu";
-@import "about";
-@import "projects";
-@import "contact";
+@import "config","home","about","menu","projects","contact";
+
 body{ 
     background-color: $primary-color;
     color: set-text-color($primary-color);
